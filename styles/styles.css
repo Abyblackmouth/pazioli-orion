@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.type__cards {
+  width: 100%;
+  height: 400px;
+  background-color: #6767e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.type__cards .card__butterfly, .type__cards .card__leaf, .type__cards .card__strauss {
+  width: 250px;
+  background-color: beige;
+  padding: 5px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.type__cards .card__butterfly .card__butterfly--specifics, .type__cards .card__leaf .card__butterfly--specifics, .type__cards .card__strauss .card__butterfly--specifics {
+  width: 250px;
+  height: 239px;
+  background-color: #f0dcf5;
+}
+
+.type__cards .card__butterfly .card__list--butterfly, .type__cards .card__leaf .card__list--butterfly, .type__cards .card__strauss .card__list--butterfly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 16px;
+}
+
+.type__cards .card__butterfly .item__list-butterfly, .type__cards .card__leaf .item__list-butterfly, .type__cards .card__strauss .item__list-butterfly {
+  list-style: none;
+}
+
+.type__cards .price__butterfly {
+  border: solid 2px;
+  width: 161px;
+  height: 36px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+}
+/*# sourceMappingURL=styles.css.map */
