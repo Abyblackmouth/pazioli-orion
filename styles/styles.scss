@@ -1,38 +1,94 @@
 @import "vars";
 
-* {
+.seccion4 {
     margin: 0;
     padding: 0;
-}
+    background-image: url("/images/background-bnw.png");
+}    
 
 .titulo_contactanos {
-    font-family: abril fatface;
-    font-size: 32px;
-    background: none;
-    justify-content: center;
-}
+font-family: abril fatface;
+font-size: 32px;
+display: flex;
+justify-content: center;
 
+    }
+    
 .copy {
-    font-family: raleway;
-    font-size: 18px;
-    justify-content: center;
-}
+font-family: raleway;
+font-size: 18px;
+text-align: center;
+display: flex;
+justify-content: center;
+margin: 0% 30% 0 30%;
+    }
+    
+.contenedor_inputs {
+        margin: 3% 35%;
 
+        .doble_label {
+            display: flex;
+
+        }
+    }
+    
 .titulo_texto {
-    font-family: raleway;
-    font-weight: 700;
-    color: $primary-color;
-    justify-content: left;
+font-family: raleway;
+font-weight: 700;
+color: $primary-color;
+text-align: left;
+display: flex;
+margin: 5% 35% 0 0;
+       
+    }
+    
+.texto_cuadro-1 {
+background-color: $primary-hover;
+justify-content: center;
+opacity: .5;
+border-color: solid white;
+border-radius: 3px;
+margin-top: 3%;
+padding-right: 61%;
+padding-top: 2%;
 }
 
 .texto_cuadro {
-    background-color: $primary-hover;
-    justify-content: center;
-    opacity: .5;
-}
+background-color: $primary-hover;
+justify-content: center;
+opacity: .5;
+border-color: solid white;
+border-radius: 3px;
+margin-top: 3%;
+padding-right: 12%;
+padding-top: 2%;
 
-.enviar_button {
-    background-color: $primary-color;
-    color: $primary-bg;
+        
+    }
 
-}
+.texto_cuadro-4 {
+padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 25%;
+padding-right: 37%;
+background-color: $primary-hover;
+justify-content: center;
+opacity: .5;
+border-color: solid white;
+border-radius: 3px;
+margin: 2.5% 10% 0 0;
+    }
+    
+ .enviar_button {
+background-color: $primary-color;
+color: $primary-bg;
+padding: 2% 44%;
+margin-top: 10%;
+margin-bottom: 20%;
+border-color: solid white;
+border-radius: 10px;
+display: flex;
+
+    }
+
+
