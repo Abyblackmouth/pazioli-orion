@@ -1,0 +1,36 @@
+* {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo_contactanos {
+  font-family: abril fatface;
+  font-size: 32px;
+  background: none;
+  justify-content: center;
+}
+
+.copy {
+  font-family: raleway;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.titulo_texto {
+  font-family: raleway;
+  font-weight: 700;
+  color: black;
+  justify-content: left;
+}
+
+.texto_cuadro {
+  background-color: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.enviar_button {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

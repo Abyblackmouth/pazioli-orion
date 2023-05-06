@@ -1,0 +1,38 @@
+@import "vars";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo_contactanos {
+    font-family: abril fatface;
+    font-size: 32px;
+    background: none;
+    justify-content: center;
+}
+
+.copy {
+    font-family: raleway;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.titulo_texto {
+    font-family: raleway;
+    font-weight: 700;
+    color: $primary-color;
+    justify-content: left;
+}
+
+.texto_cuadro {
+    background-color: $primary-hover;
+    justify-content: center;
+    opacity: .5;
+}
+
+.enviar_button {
+    background-color: $primary-color;
+    color: $primary-bg;
+
+}
