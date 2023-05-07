@@ -1,7 +1,18 @@
+* {
+  margin: 0;
+}
+
 .seccion4 {
   margin: 0;
-  padding: 0;
-  background-image: url("/images/background-bnw.png");
+  background-image: url(background-bnw.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.section4_contact {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(223, 228, 234, 0.6));
 }
 
 .titulo_contactanos {
@@ -9,6 +20,7 @@
   font-size: 32px;
   display: flex;
   justify-content: center;
+  padding: 3%;
 }
 
 .copy {
@@ -37,7 +49,7 @@
 }
 
 .texto_cuadro-1 {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: black;
   justify-content: center;
   opacity: 0.5;
   border-color: solid white;
@@ -48,7 +60,7 @@
 }
 
 .texto_cuadro {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: black;
   justify-content: center;
   opacity: 0.5;
   border-color: solid white;
@@ -63,7 +75,7 @@
   padding-bottom: 10%;
   padding-left: 25%;
   padding-right: 37%;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: black;
   justify-content: center;
   opacity: 0.5;
   border-color: solid white;
@@ -75,9 +87,12 @@
   background-color: black;
   color: white;
   padding: 2% 44%;
-  margin-top: 10%;
-  margin-bottom: 20%;
   border-color: solid white;
   border-radius: 10px;
   display: flex;
+}
+
+.contenedor_button {
+  margin: 5% 0;
+  padding: 5% 0 15% 0;
 }/*# sourceMappingURL=styles.css.map */
