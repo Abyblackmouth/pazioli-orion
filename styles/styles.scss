@@ -1,14 +1,17 @@
-.container__second_section--models_main_piano{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    width: 1440px;
+    box-sizing: content-box;
+}
+
+
+.container__second_section--models_main_piano{
+
+    width: 100%;
     height: 600px;
     background-image: url("/sec_section/img/piano_play_img.png");
 
-    .second_section__title--piano_models{
-        margin-top: 20px;
-    }
+    
 }
 
 
@@ -17,19 +20,10 @@
     flex-direction: row;
     justify-content: center;
 
-    .start_img__retting--5{
-        margin-top: 10px;
-        width: 115px;
-        height: 17px;
-    }
-
     .piano_info__models_aside--1{
         width: 300px;
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 50px;
+        height: 500px;
+        
 }
 
 .piano_info__models_aside--2{
@@ -37,23 +31,30 @@
     height: 450px;
 }
 
-
-.second_section__button--models_buy{
-    width: 160px;
-    height: 25px;
 }
 
-}
 
-.list_piano__info_models--1_3_types{
-    display: inline-flex;
-    .list_piano__info_models--wich_3_types{
+.piano_info__models_aside--1{
+
+    .start_img__retting--5{
+        margin-top: 10px;
+        width: 115px;
+        height: 17px;
+    }
+
+    .list_piano__info_models--3_types{
+        display: inline;
+
+        .list_piano__info_models--list_3_types{
         list-style-type: none;
+        }
+    }
+    .second_section__button--models_buy{
+        width: 228px;
+        height: 32px;
+        border-radius: 8px;
+        background-color: black;
     }
     
 }
 
-    
-
-
-    
