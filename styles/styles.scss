@@ -154,5 +154,124 @@
 }
 
     
-    
+.footer__container{
+    width: auto;
+    height: 450px;
+    background-color: $partners-color;
+
+    .footer__container--dates {
+        width: auto;
+        height: 250px;
+        display: flex;
+
+        .logo__pazioli {
+            width: 30%;
+            height: 200px;
+            background-image: url("../img/nuve-fondo.png");
+            background-size: 120px 120px;
+            background-position: 47% 50%;
+            background-repeat: no-repeat;
+            position: relative;
+            .logo__pazioli--img {
+                position: absolute;
+               left:35% ;
+                top: 32%;
+                width: 52px;
+                height: 72px;
+            }
+
+            .logo__pazioli--letters {
+                position: absolute;
+                left:46% ;
+                top: 57%;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+
+        .us__section {
+            width: 35%;
+            margin-left: 20px;
+            h2 {
+                font-size: 20px;
+                font-weight:bold ;
+                position: relative;
+                top: 45px;
+            }
+
+            ul {
+                list-style: none;
+                font-size: 20px;
+                line-height: 30px;
+                margin-top: 70px;
+            }
+        }
+
+        .contact__section {
+            width: 35%;
+            margin-top: 45px;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                margin-top: 5px;
+            }
+
+            .contact-paragraph {
+                font-size: 20px;
+            }
+
+        }
+    }
+
+    .footer__container--rss {
+        width: auto;
+        height: 50px;
+        background-color: $partners-color;
+        display: flex;
+
+        .rss__logos {
+            width: 50%;
+            display: flex;
+            position: absolute;
+            left: 125px;
+        }
+
+        p {
+            width: 50%;
+            position: absolute;
+            left: 450px;
+            margin-top: 20px;
+        }
+
+        div {
+            width: 40px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 50px;
+            margin: 15px;
+        }
+
+        img {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        
+    }
+
+    .footer__emojis {
+        width: auto;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 80px;
+    }
+ }   
 
