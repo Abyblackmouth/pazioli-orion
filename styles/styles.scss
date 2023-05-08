@@ -4,12 +4,11 @@
 $font-primary-family:'Abril Fatface', cursive;
 $font-secondary-family:'Raleway', sans-serif;
 
-
-body {
-margin: 0;
-padding: 0;
-box-sizing: content-box;
+* {
+margin: 0px;
+padding: 0px;
 }
+
 
 #second_section_piano_models {
     width: 100%;
@@ -17,6 +16,7 @@ box-sizing: content-box;
     background-image: url("/segunda-seccion/imagenes/piano_play.png");
     background-repeat: no-repeat;
     background-size: cover;
+
 
 }
 
@@ -119,12 +119,6 @@ box-sizing: content-box;
 
 @import url('https://fonts.cdnfonts.com/css/abril-fatface');
 @import url('https://fonts.cdnfonts.com/css/raleway-5');
-
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 .tittle__section--cards{
     font-size: 24px;
