@@ -1,10 +1,6 @@
 @import "vars";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap');
 
-* {
-    margin: 0;
-}  
-
 .seccion4 {
     margin: 0;
     background-image: url(background-bnw.png);
@@ -149,4 +145,298 @@ border: none;
         font-size: 18px;
         padding: 7px 213px;
     }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+$font-primary-family:'Abril Fatface', cursive;
+$font-secondary-family:'Raleway', sans-serif;
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+
+#second_section_piano_models {
+    width: 100%;
+    height: 761px;
+    background-image: url("/segunda-seccion/imagenes/piano_play.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.container__second_section_models{
+    
+    .second_section__title--piano{
+        padding: 32px;
+        .title_piano{
+        display: block;
+        text-align: center;    
+        font-size: 32px;
+        font-family:$font-primary-family;
+        padding: 5px;
+    }
+}
+}
+
+.container_asides {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+    margin-left: 32px;
+    
+    
+.piano_info__models_aside--1 {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:$font-primary-family;
+
+    .model_inf_name{
+    font-size: 24px;
+}
+
+.model_ratting_img  {
+    font-size: 12px;
+    font-family: $font-secondary-family;
+    
+}
+
+.money_model_ebony{
+    font-size: 24px;
+}
+
+.info_model_ebony{
+    font-size: 16px;
+    font-family: $font-secondary-family;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+    .list_piano__info_models{
+            padding: 0;
+            display:flex;
+            justify-content:space-between;
+            font-family: $font-secondary-family;
+            list-style-type: none;
+            font-size:12px;
+            color: white;
+    }   
+    }
+
+    .button_buy_models {
+        width: 228px;
+        height: 32px;
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+        font-size: 14px;
+        margin-top: 24px;
+        border-style: none;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        font-family: $font-secondary-family;
+        margin-top: 32px;
+    }
+
+    .button_buy_models:hover {
+        background-color: rgb(204, 204, 204);
+        color: black;
+    }
+
+
+.piano_info__models_aside--2{
+    margin-right: 50px;
+    .img_piano_play{
+        margin-left: 32px;
+        width: 450px;
+        height: 450px;
+    }
+}
+
+}
+
+@import url('https://fonts.cdnfonts.com/css/abril-fatface');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+.tittle__section--cards{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 400;
+}
+
+.cards__products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}.card__butterfly{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 30px;
+    box-shadow:3px 1px 30px 14px rgba(51, 51, 51, 0.27);
+    .card__butterfly--image{
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+    .card__tittle--butterfly{
+        font-family: 'Abril Fatface', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .card__products--description{
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 28px;
+    }
+
+    .list_products--butterfly{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+        margin-right: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }   .item__list-butterfly {
+             list-style: none;
+             margin-left: -10px;
+    }
+
+    .price__section{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 11px;
+        margin-right: 28px;
+        .price__butterfly {
+            border: solid 2px;
+            width: 161px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Raleway', sans-serif;
+            .price__butterfly--price{
+                font-weight: bold;
+            }
+    }
+   
+    }
+    .icon__products{
+        width: 39px;
+        height: 39px;
+        border-radius: 8px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+.button__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    .button__item{
+        width: 129px;
+        height: 32px;
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+        border: 0;
+    }
+}
+
+@media screen and ( min-width:1200px) {
+    .button__container{
+        margin-top: 84px;
+    }
+    .tittle__section--cards{
+        font-size: 32px;
+    }
+    .cards__products{
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .card__butterfly{
+        height: 239px;
+        .card__butterfly--image{
+            position: relative;
+            bottom: 95px;
+        }
+        .card__products--description{
+            position: relative;
+            bottom: 90px;
+        }
+    } 
+    
+}
+.container__second_section--models_main_piano{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 600px;
+    background-image: url("/sec_section/img/piano_play_img.png");
+
+    .second_section__title--piano_models{
+        margin-top: 20px;
+    }
+}
+
+
+.container__second_section--models_piano__info--aside_1_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .start_img__retting--5{
+        margin-top: 10px;
+        width: 115px;
+        height: 17px;
+    }
+
+    .piano_info__models_aside--1{
+        width: 300px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 50px;
+}
+
+.piano_info__models_aside--2{
+    width: 450px;
+    height: 450px;
+}
+
+
+.second_section__button--models_buy{
+    width: 160px;
+    height: 25px;
+}
+
+}
+
+.list_piano__info_models--1_3_types{
+    display: inline-flex;
+    .list_piano__info_models--wich_3_types{
+        list-style-type: none;
+    }
+    
 }
