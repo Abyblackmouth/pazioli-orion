@@ -1,47 +1,90 @@
+@import url("https://fonts.cdnfonts.com/css/abril-fatface");
+@import url("https://fonts.cdnfonts.com/css/raleway-5");
 * {
   padding: 0px;
   margin: 0px;
 }
 
-.type__cards {
+.tittle__section--cards {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: 400;
+}
+
+.cards__products {
   width: 100%;
-  height: 400px;
-  background-color: #6767e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.type__cards .card__butterfly, .type__cards .card__leaf, .type__cards .card__strauss {
+.card__butterfly {
   width: 250px;
-  background-color: beige;
-  padding: 5px;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 30px;
+  -webkit-box-shadow: 3px 1px 30px 14px rgba(51, 51, 51, 0.27);
+          box-shadow: 3px 1px 30px 14px rgba(51, 51, 51, 0.27);
 }
 
-.type__cards .card__butterfly .card__butterfly--specifics, .type__cards .card__leaf .card__butterfly--specifics, .type__cards .card__strauss .card__butterfly--specifics {
+.card__butterfly .card__butterfly--image {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.card__butterfly .card__tittle--butterfly {
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card__butterfly .card__products--description {
   width: 250px;
-  height: 239px;
-  background-color: #f0dcf5;
+  margin-left: 10px;
+  margin-top: 28px;
 }
 
-.type__cards .card__butterfly .card__list--butterfly, .type__cards .card__leaf .card__list--butterfly, .type__cards .card__strauss .card__list--butterfly {
+.card__butterfly .list_products--butterfly {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 16px;
+  margin-right: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
 }
 
-.type__cards .card__butterfly .item__list-butterfly, .type__cards .card__leaf .item__list-butterfly, .type__cards .card__strauss .item__list-butterfly {
+.card__butterfly .item__list-butterfly {
   list-style: none;
+  margin-left: -10px;
 }
 
-.type__cards .price__butterfly {
+.card__butterfly .price__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 11px;
+  margin-right: 28px;
+}
+
+.card__butterfly .price__section .price__butterfly {
   border: solid 2px;
   width: 161px;
   height: 36px;
@@ -55,6 +98,76 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card__butterfly .price__section .price__butterfly .price__butterfly--price {
+  font-weight: bold;
+}
+
+.card__butterfly .icon__products {
+  width: 39px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+
+.button__container .button__item {
+  width: 129px;
+  height: 32px;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  border: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .button__container {
+    margin-top: 84px;
+  }
+  .tittle__section--cards {
+    font-size: 32px;
+  }
+  .cards__products {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+  }
+  .card__butterfly {
+    height: 239px;
+  }
+  .card__butterfly .card__butterfly--image {
+    position: relative;
+    bottom: 95px;
+  }
+  .card__butterfly .card__products--description {
+    position: relative;
+    bottom: 90px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
