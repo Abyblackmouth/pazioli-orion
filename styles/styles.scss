@@ -1,4 +1,5 @@
 @import "vars";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -18,7 +19,7 @@
 }
 
 .titulo_contactanos {
-font-family: abril fatface;
+font-family: 'Abril Fatface';
 font-size: 32px;
 display: flex;
 justify-content: center;
@@ -26,7 +27,7 @@ padding: 3%;
 }
     
 .copy {
-font-family: raleway;
+font-family: 'Raleway';
 font-size: 18px;
 text-align: center;
 display: flex;
@@ -44,7 +45,7 @@ margin: 0% 30% 0 30%;
 }
     
 .titulo_texto {
-font-family: raleway;
+font-family: 'Raleway';
 font-weight: 700;
 color: $primary-color;
 text-align: left;
