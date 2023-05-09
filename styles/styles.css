@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/abril-fatface");
+@import url("https://fonts.cdnfonts.com/css/raleway-5");
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 .seccion4 {
-  margin: 0;
   background-image: url(background-bnw.png);
   width: 100%;
   height: 100%;
@@ -10,6 +17,7 @@
 }
 
 .section4_contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(87, 96, 111, 0.8)));
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(87, 96, 111, 0.8));
 }
 
@@ -18,42 +26,64 @@
 }
 
 .titulo_contactanos {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-size: 24px;
   font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 20px;
   padding-bottom: 15px;
 }
 
 .copy {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 16px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contenedor_inputs {
-  justify-content: center;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   color: black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .contenedor_inputs .titulo_texto {
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
 }
+
 .contenedor_inputs .texto_cuadro {
   background-color: black;
-  justify-content: center;
-  opacity: 0.5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: .5;
   border-style: solid;
   border-color: white;
   border-radius: 5px;
@@ -70,10 +100,12 @@
 .enviar_button {
   font-size: 16px;
   background-color: black;
-  color: white;
+  color: #FFFF;
   padding: 9px 122px;
   border-color: solid white;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
   margin-top: 15px;
@@ -81,44 +113,62 @@
   border: none;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
+  .form__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .all_content {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .titulo_texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .titulo_contactanos {
-    font-family: "Abril Fatface";
+    font-family: 'Abril Fatface';
     font-size: 32px;
     font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 20px;
     padding-bottom: 15px;
   }
   .copy {
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-size: 18px;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 15px 200px;
   }
   .doble_cuadro {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .doble_cuadro #doble_cuadro-caja {
     height: 36px;
     width: 225px;
     margin-right: 5px;
-  }
-  .contenedor_inputs {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-left: 235px;
   }
   .contenedor_inputs .texto_cuadro {
     border-radius: 10px;
@@ -129,14 +179,6 @@
     font-size: 18px;
     padding: 7px 213px;
   }
-  
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
-@import url("https://fonts.cdnfonts.com/css/abril-fatface");
-@import url("https://fonts.cdnfonts.com/css/raleway-5");
-* {
-  margin: 0px;
-  padding: 0px;
 }
 
 #second_section_piano_models {
@@ -150,6 +192,7 @@
 .container__second_section_models .second_section__title--piano {
   padding: 32px;
 }
+
 .container__second_section_models .second_section__title--piano .title_piano {
   display: block;
   text-align: center;
@@ -159,45 +202,70 @@
 }
 
 .container_asides {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 50px;
   margin-left: 32px;
 }
+
 .container_asides .piano_info__models_aside--1 {
   width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
   font-family: "Abril Fatface", cursive;
 }
+
 .container_asides .piano_info__models_aside--1 .model_inf_name {
   font-size: 24px;
 }
+
 .container_asides .piano_info__models_aside--1 .model_ratting_img {
   font-size: 12px;
   font-family: "Raleway", sans-serif;
 }
+
 .container_asides .piano_info__models_aside--1 .money_model_ebony {
   font-size: 24px;
 }
+
 .container_asides .piano_info__models_aside--1 .info_model_ebony {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   line-height: 19px;
   text-align: left;
 }
+
 .container_asides .piano_info__models_aside--1 .list_piano__info_models {
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   font-size: 12px;
   color: white;
 }
+
 .container_asides .button_buy_models {
   width: 228px;
   height: 32px;
@@ -208,18 +276,22 @@
   margin-top: 24px;
   border-style: none;
   cursor: pointer;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   margin-top: 32px;
 }
+
 .container_asides .button_buy_models:hover {
-  background-color: rgb(204, 204, 204);
+  background-color: #cccccc;
   color: black;
 }
+
 .container_asides .piano_info__models_aside--2 {
   margin-right: 50px;
 }
+
 .container_asides .piano_info__models_aside--2 .img_piano_play {
   margin-left: 32px;
   width: 450px;
@@ -229,87 +301,130 @@
 .tittle__section--cards {
   font-size: 24px;
   text-align: center;
-  font-family: "Abril Fatface", sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   font-weight: 400;
 }
 
 .cards__products {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card__butterfly {
   width: 250px;
   height: 350px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-radius: 8px;
   margin: 30px;
-  box-shadow: 3px 1px 30px 14px rgba(51, 51, 51, 0.27);
+  -webkit-box-shadow: 3px 1px 30px 14px rgba(51, 51, 51, 0.27);
+          box-shadow: 3px 1px 30px 14px rgba(51, 51, 51, 0.27);
 }
+
 .card__butterfly .card__butterfly--image {
   margin-top: 8px;
   margin-left: 16px;
 }
+
 .card__butterfly .card__tittle--butterfly {
-  font-family: "Abril Fatface", sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
+
 .card__butterfly .card__products--description {
   width: 250px;
   margin-left: 10px;
   margin-top: 28px;
 }
+
 .card__butterfly .list_products--butterfly {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-top: 16px;
   margin-right: 16px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 12px;
 }
+
 .card__butterfly .item__list-butterfly {
   list-style: none;
   margin-left: -10px;
 }
+
 .card__butterfly .price__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 11px;
   margin-right: 28px;
 }
+
 .card__butterfly .price__section .price__butterfly {
   border: solid 2px;
   width: 161px;
   height: 36px;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Raleway", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
+
 .card__butterfly .price__section .price__butterfly .price__butterfly--price {
   font-weight: bold;
 }
+
 .card__butterfly .icon__products {
   width: 39px;
   height: 39px;
   border-radius: 8px;
   background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 34px;
   margin-bottom: 10px;
 }
+
 .button__container .button__item {
   width: 129px;
   height: 32px;
@@ -327,8 +442,13 @@
     font-size: 32px;
   }
   .cards__products {
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 100px;
   }
   .card__butterfly {
@@ -343,48 +463,71 @@
     bottom: 90px;
   }
 }
+
 .container__second_section--models_main_piano {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 1440px;
   height: 600px;
   background-image: url("/sec_section/img/piano_play_img.png");
 }
+
 .container__second_section--models_main_piano .second_section__title--piano_models {
   margin-top: 20px;
 }
 
 .container__second_section--models_piano__info--aside_1_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .container__second_section--models_piano__info--aside_1_2 .start_img__retting--5 {
   margin-top: 10px;
   width: 115px;
   height: 17px;
 }
+
 .container__second_section--models_piano__info--aside_1_2 .piano_info__models_aside--1 {
   width: 300px;
   height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   left: 50px;
 }
+
 .container__second_section--models_piano__info--aside_1_2 .piano_info__models_aside--2 {
   width: 450px;
   height: 450px;
 }
+
 .container__second_section--models_piano__info--aside_1_2 .second_section__button--models_buy {
   width: 160px;
   height: 25px;
 }
 
 .list_piano__info_models--1_3_types {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
+
 .list_piano__info_models--1_3_types .list_piano__info_models--wich_3_types {
   list-style-type: none;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
