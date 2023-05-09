@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/abril-fatface');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
 
-$font-primary-family:'Abril Fatface', cursive;
-$font-secondary-family:'Raleway', sans-serif;
 
 * {
 margin: 0px;
@@ -11,13 +9,11 @@ padding: 0px;
 
 
 #second_section_piano_models {
-    width: 100%;
+    width: 1200px;
     height: 761px;
     background-image: url("/segunda-seccion/imagenes/piano_play.png");
     background-repeat: no-repeat;
-    background-size: cover;
-
-
+    background-size: 1200px;
 }
 
 .container__second_section_models{
@@ -28,36 +24,38 @@ padding: 0px;
         display: block;
         text-align: center;    
         font-size: 32px;
-        font-family:$font-primary-family;
+        font-family: 'Abril Fatface', sans-serif;
         padding: 5px;
     }
 }
 }
 
 .container_asides {
-
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items:center;
-    margin-top: 50px;
-    margin-left: 32px;
-    
+    justify-content: space-evenly;
+    align-items: center;
+        
     
 .piano_info__models_aside--1 {
-    width: 360px;
+    padding: 10px;
+    width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     color: white;
-    font-family:$font-primary-family;
+    font-family: 'Abril Fatface', sans-serif;
 
     .model_inf_name{
     font-size: 24px;
+
+    
 }
 
 .model_ratting_img  {
     font-size: 12px;
-    font-family: $font-secondary-family;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -67,7 +65,7 @@ padding: 0px;
 
 .info_model_ebony{
     font-size: 16px;
-    font-family: $font-secondary-family;
+    font-family: 'Raleway', sans-serif;
     line-height: 19px;
     text-align: left;
 }
@@ -77,7 +75,7 @@ padding: 0px;
             padding: 0;
             display:flex;
             justify-content:space-between;
-            font-family: $font-secondary-family;
+            font-family: 'Raleway', sans-serif;
             list-style-type: none;
             font-size:12px;
             color: white;
@@ -96,7 +94,7 @@ padding: 0px;
         cursor: pointer;
         transition-duration: 0.4s;
         text-decoration: none;
-        font-family: $font-secondary-family;
+        font-family: 'Raleway', sans-serif;
         margin-top: 32px;
     }
 
@@ -117,8 +115,6 @@ padding: 0px;
 
 }
 
-@import url('https://fonts.cdnfonts.com/css/abril-fatface');
-@import url('https://fonts.cdnfonts.com/css/raleway-5');
 
 .tittle__section--cards{
     font-size: 24px;
@@ -237,57 +233,43 @@ padding: 0px;
     } 
     
 }
-.container__second_section--models_main_piano{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 1440px;
-    height: 600px;
-    background-image: url("/sec_section/img/piano_play_img.png");
-
-    .second_section__title--piano_models{
-        margin-top: 20px;
-    }
-}
 
 
-.container__second_section--models_piano__info--aside_1_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    .start_img__retting--5{
-        margin-top: 10px;
-        width: 115px;
-        height: 17px;
-    }
-
-    .piano_info__models_aside--1{
-        width: 300px;
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 50px;
-}
-
-.piano_info__models_aside--2{
-    width: 450px;
-    height: 450px;
-}
-
-
-.second_section__button--models_buy{
-    width: 160px;
-    height: 25px;
-}
-
-}
-
-.list_piano__info_models--1_3_types{
-    display: inline-flex;
-    .list_piano__info_models--wich_3_types{
-        list-style-type: none;
-    }
+@media screen and (max-width:600px) {
     
+    #second_section_piano_models{
+        width: 400px;
+        height: 778px;
+        background-image: url('/segunda-seccion/imagenes/piano_mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+}
+
+.container_asides{
+    width: 288px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+.title_piano{
+    font-size: 24px;
+}
+
+.img_piano_play{
+    margin-top: 20px;
+    width: 190px;
+    height: 180px;
+}
+
+.model_inf_name{
+    font-size: 24px;
+}
+
+.model_ratting_img{
+    font-size: 12px;
+}
+
 }
