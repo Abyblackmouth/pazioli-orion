@@ -1,11 +1,11 @@
 @import "vars";
 
 @mixin partners__boxes($border-dimension:1000px 1000px 1000px 1000px, 
-        $partners-width:328px,$border-radius:50%, $margin-figure:10px,
+        $partners-width:328px, $partenrs-height:103px,$border-radius:50%, $margin-figure:10px,
          $width-figure:89px, $height-figure:89px)  
 {
     width:$partners-width;
-    height:103px;
+    height:$partenrs-height;
     background-color: $primary-color;
     border-radius: $border-dimension;
     display: flex;
@@ -62,7 +62,7 @@
             @include partners__boxes;
                        
             img {
-              width: 50px;
+              width:50px;
               height: 70px;
               margin-top:8px;  
 
@@ -324,3 +324,5 @@
     }
  }   
 
+
+    
